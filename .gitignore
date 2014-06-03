@@ -2,3 +2,6 @@
 *.log
 src/
 pkg/
+
+# VCS checkouts
+vendace-git/vendace/
