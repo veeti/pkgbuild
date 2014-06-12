@@ -19,6 +19,7 @@ build() {
   patch -p0 -i $srcdir/porg-0.5-install-fix.patch
   autoreconf
 
+  # TODO split grop
   ./configure --prefix=/usr --sysconfdir=/etc --disable-grop
   make
 }
