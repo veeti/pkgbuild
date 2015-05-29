@@ -1,9 +1,11 @@
 *.tar.*
 *.deb
 *.log
+.SRCINFO
 src/
 pkg/
 
 # VCS checkouts
 vendace-git/vendace/
 ttf-mono16-git/mono16/
+ttf-google-fonts-opinionated-git/fonts/
